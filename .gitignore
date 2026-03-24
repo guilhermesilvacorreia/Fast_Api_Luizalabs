@@ -1,0 +1,17 @@
+# --- Python e Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+env/
+
+# --- Banco de Dados ---
+*.db
+*.db-journal
+
+# --- Segredos (O MAIS IMPORTANTE) ---
+.env
+
+# --- VS Code ---
+.vscode/
